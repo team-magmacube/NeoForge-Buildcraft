@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "buildcraftreforged:block/tank-top",
+    "up": "buildcraftreforged:block/tank-top",
+    "north": "buildcraftreforged:block/tank-side_stacked",
+    "south": "buildcraftreforged:block/tank-side",
+    "west": "buildcraftreforged:block/tank-side",
+    "east": "buildcraftreforged:block/tank-side"
+  }
+}

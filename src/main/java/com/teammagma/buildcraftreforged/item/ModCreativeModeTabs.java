@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.Quarry_Block);
                         output.accept(ModBlocks.Pump_Block);
+                        output.accept(ModBlocks.Tank_Block);
                         output.accept(ModItems.DiamondGear);
                         output.accept(ModItems.GoldGear);
                         output.accept(ModItems.IronGear);
