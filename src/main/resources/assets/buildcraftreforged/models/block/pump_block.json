@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "buildcraftreforged:block/pumpbottom",
+    "up": "buildcraftreforged:block/pump-top",
+    "north": "buildcraftreforged:block/pump-side",
+    "south": "buildcraftreforged:block/pump-side",
+    "west": "buildcraftreforged:block/pump-side",
+    "east": "buildcraftreforged:block/pump-side"
+  }
+}

@@ -1,5 +1,9 @@
 package com.teammagma.buildcraftreforged;
 
+import com.teammagma.buildcraftreforged.block.ModBlocks;
+import com.teammagma.buildcraftreforged.item.ModCreativeModeTabs;
+import com.teammagma.buildcraftreforged.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -34,6 +38,11 @@ public class BuildCraftReforged {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
@@ -46,6 +55,17 @@ public class BuildCraftReforged {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.WoodenGear);
+            event.accept(ModItems.StoneGear);
+            event.accept(ModItems.IronGear);
+            event.accept(ModItems.GoldGear);
+            event.accept(ModItems.DiamondGear);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.Quarry_Block);
+        }
 
     }
 

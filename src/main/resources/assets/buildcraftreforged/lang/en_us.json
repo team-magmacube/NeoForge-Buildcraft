@@ -1,0 +1,11 @@
+{
+  "item.buildcraftreforged.woodengear": "Wooden Gear",
+  "item.buildcraftreforged.stonegear": "Stone Gear",
+  "item.buildcraftreforged.irongear": "Iron Gear",
+  "item.buildcraftreforged.goldgear": "Gold Gear",
+  "item.buildcraftreforged.diamondgear": "Diamond Gear",
+  "block.buildcraftreforged.quarry_block": "Quarry",
+  "block.buildcraftreforged.pump_block": "Pump",
+  "creativetab.buildcraftreforged.buildcraftreforged": "BuildCraft Reforged"
+
+}

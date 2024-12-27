@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "": {
+      "model": "buildcraftreforged:block/quarry_block" }
+  }
+}
