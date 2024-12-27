@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cobblestone"
+    },
+    "b": {
+      "item": "buildcraftreforged:woodengear"
+    }
+  },
+  "result": {
+    "id": "buildcraftreforged:stonegear",
+    "count": 1
+  }
+}
