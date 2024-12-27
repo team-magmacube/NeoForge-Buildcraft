@@ -1,11 +1,24 @@
 {
-  "parent": "block/cube",
+  "parent": "minecraft:block/cube_all",
   "textures": {
-    "down": "buildcraftreforged:block/tank-top",
-    "up": "buildcraftreforged:block/tank-top",
-    "north": "buildcraftreforged:block/tank-side_stacked",
-    "south": "buildcraftreforged:block/tank-side",
-    "west": "buildcraftreforged:block/tank-side",
-    "east": "buildcraftreforged:block/tank-side"
-  }
+    "side": "buildcraftreforged:block/tank-side",
+    "top": "buildcraftreforged:block/tank-top",
+    "bottom": "buildcraftreforged:block/tank-top",
+    "connect": "buildcraftreforged:bloc/tank-side_stacked"
+  },
+  "render_type": "cutout",
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "north"},
+        "east": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "east"},
+        "south": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "south"},
+        "west": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "west"},
+        "up": {"uv": [0, 0, 16, 16], "texture": "#top", "cullface": "up"},
+        "down": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "down"}
+      }
+    }
+  ]
 }
