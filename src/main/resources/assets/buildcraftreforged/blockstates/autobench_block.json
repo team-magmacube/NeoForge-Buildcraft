@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "": {
+      "model": "buildcraftreforged:block/autobench_block" }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "buildcraftreforged:block/autobench-bottom",
+    "up": "buildcraftreforged:block/autobench-top",
+    "north": "buildcraftreforged:block/autobench-side",
+    "south": "buildcraftreforged:block/autobench-side",
+    "west": "buildcraftreforged:block/autobench-side",
+    "east": "buildcraftreforged:block/autobench-side"
+  }
+}
