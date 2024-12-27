@@ -20,6 +20,7 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.Quarry_Block.get()))
                     .title(Component.translatable("creativetab.buildcraftreforged.buildcraftreforged"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.AutoBench_Block);
                         output.accept(ModBlocks.Quarry_Block);
                         output.accept(ModBlocks.Pump_Block);
                         output.accept(ModBlocks.Tank_Block);
