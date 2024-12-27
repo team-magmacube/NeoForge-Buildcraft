@@ -1,3 +1,3 @@
 - Get Blocks to have the front face you when you place them instead of the face always being north.
 - Add some logic behind the blocks.
-- Add receipes for items. 
+- Add recipes for items. 
