@@ -55,17 +55,6 @@ public class BuildCraftReforged {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.WoodenGear);
-            event.accept(ModItems.StoneGear);
-            event.accept(ModItems.IronGear);
-            event.accept(ModItems.GoldGear);
-            event.accept(ModItems.DiamondGear);
-        }
-
-        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.Quarry_Block);
-        }
 
     }
 
